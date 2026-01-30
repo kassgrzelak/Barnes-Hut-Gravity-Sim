@@ -9,4 +9,4 @@ principles.
 
 It's definitely good for the time, but I can do a lot better now, I think. I plan to make another gravity 
 simulation, this time using OpenGL, leveraging compute shaders to do the updating in proper parallel, and
-allowing even finer control over optimisation.
+allowing even finer control over optimization.
