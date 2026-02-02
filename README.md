@@ -2,7 +2,7 @@ A C++ gravity simulation implementing the Barnes-Hut algorithm I wrote in June 2
 lifelong tradition of writing gravity simulations. I was quite proud of it at the time; it could handle ~88k
 bodies at a "respectable" 20 FPS. Looking back at it now, though, I see how far my C++ coding has come.
 
-The code isn't laid out all that great, it's not really const-correct, I hadn't yet learned a lot of C++ best
+The code is laid out awfully, I had a lot of misconceptions about how inlining functions worked, I hadn't yet learned a lot of C++ best
 practices, there isn't any parallelism except where C++ did it all for me, and a big speedup could probably be
 gained by using Struct of Arrays instead of Array of Structs as well as following other data-oriented design
 principles.
